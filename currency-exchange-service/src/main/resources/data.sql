@@ -1,0 +1,12 @@
+INSERT INTO CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment) VALUES (1,'USD','PLN',3.99,'');
+INSERT INTO CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment) VALUES (2,'USD','UAH',38.84,'');
+INSERT INTO CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment) VALUES (3,'USD','EUR',0.92,'');
+INSERT INTO CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment) VALUES (4,'EUR','PLN',4.34,'');
+INSERT INTO CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment) VALUES (5,'EUR','UAH',42.20,'');
+INSERT INTO CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment) VALUES (6,'EUR','USD',1.09,'');
+INSERT INTO CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment) VALUES (7,'UAH','PLN',0.1,'');
+INSERT INTO CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment) VALUES (8,'UAH','EUR',0.024,'');
+INSERT INTO CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment) VALUES (9,'UAH','USD',0.026,'');
+INSERT INTO CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment) VALUES (10,'PLN','USD',0.25,'');
+INSERT INTO CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment) VALUES (11,'PLN','EUR',0.23,'');
+INSERT INTO CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment) VALUES (12,'PLN','UAH',9.81,'');

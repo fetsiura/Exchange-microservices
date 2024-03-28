@@ -1,0 +1,17 @@
+Currency exchange service
+PLN, USD, EUR, UAH
+http://localhost:8000/currency-exchange/from/PLN/to/USD
+
+Currency conversion service
+PLN, USD, EUR, UAH
+http://localhost:8100/currency-conversion/from/PLN/to/USD/quantity/11
+http://localhost:8100/currency-conversion-feign/from/PLN/to/USD/quantity/11
+
+Eureka
+http://localhost:8761
+
+Api Gateway
+http://localhost:8765/currency-exchange/from/PLN/to/USD
+http://localhost:8765/currency-conversion/from/PLN/to/USD/quantity/11
+http://localhost:8765/currency-conversion-feign/from/PLN/to/USD/quantity/11
+
