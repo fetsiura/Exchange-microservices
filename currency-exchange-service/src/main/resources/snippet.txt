@@ -1,0 +1,5 @@
+build command
+
+mvn spring-boot:build-image -DskipTests=true
+
+docker run -p 8080:8080 linuxgts/micro-v1-currency-exchange-service:0.0.1-SNAPSHOT
