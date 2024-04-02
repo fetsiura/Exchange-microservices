@@ -101,7 +101,6 @@
 				<configuration>
 					<image>
 						<name>linuxgts/micro-v1-${project.artifactId}:${project.version}</name>
-						<tag>latest</tag>
 					</image>
 					<pullPolicy>IF_NOT_PRESENT</pullPolicy>
 					<excludes>
@@ -114,6 +113,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
-
 </project>
