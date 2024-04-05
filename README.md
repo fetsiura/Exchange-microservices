@@ -1,4 +1,4 @@
-# Microservices for currency conversion
+# Microservices for currency conversion using Docker and Kubernetes
 
 ## AVAILABLE EXCHANGING
 
@@ -39,8 +39,13 @@ http://localhost:8765/currency-conversion/from/UAH/to/USD/quantity/2000
 
 Limits Microservice 8080,8081
 
+**DockerHub images**
 
-PLN, USD, EUR, UAH
+linuxgts/micro-v1-currency-exchange-service
 
-PLN, USD, EUR, UAH
+linuxgts/micro-v1-currency-conversion-service
+
+linuxgts/micro-v1-api-gateway
+
+linuxgts/micro-v1-naming-server
 
